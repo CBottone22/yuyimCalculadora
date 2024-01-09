@@ -7,3 +7,4 @@ function calculate() {
     let result = eval(document.getElementById('display').value);
     Id('display').value = result;
 }
+

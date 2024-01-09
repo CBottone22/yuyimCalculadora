@@ -12,20 +12,16 @@
     <div class="calculator">
         <input type="text" id="display" disabled>
         <div class="keys">
-            <button onclick="addToDisplay('0')">0</button>
-            <button onclick="addToDisplay('1')">1</button>
-            <button onclick="addToDisplay('2')">2</button>
-            <button onclick="addToDisplay('3')">3</button>
-            <button onclick="addToDisplay('4')">4</button>
-            <button onclick="addToDisplay('5')">5</button>
-            <button onclick="addToDisplay('6')">6</button>
-            <button onclick="addToDisplay('7')">7</button>
-            <button onclick="addToDisplay('8')">8</button>
-            <button onclick="addToDisplay('9')">9</button>
-            <button onclick="addToDisplay('+')">+</button>
-            <button onclick="addToDisplay('-')">-</button>
-            <button onclick="addToDisplay('*')">*</button>
-            <button onclick="addToDisplay('/')">/</button>
+            <button id = "btn-0" onclick="handleNumberClick(0)">0</button>
+            <button id = "btn-1" onclick="handleNumberClick(1)">1</button>
+            <button id = "btn-2" onclick="handleNumberClick(2)">2</button>
+            <button id = "btn-3" onclick="handleNumberClick(3)">3</button>
+            <button id = "btn-4" onclick="handleNumberClick(4)">4</button>
+            <button id = "btn-5" onclick="handleNumberClick(5)">5</button>
+            <button id = "btn-6" onclick="handleNumberClick(6)">6</button>
+            <button id = "btn-7" onclick="handleNumberClick(7)">7</button>
+            <button id = "btn-8" onclick="handleNumberClick(8)">8</button>
+            <button id = "btn-9" onclick="handleNumberClick(9)">9</button>
             <button onclick="calculate()">=</button>
         </div>
     </div>
